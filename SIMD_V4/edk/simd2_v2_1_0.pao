@@ -1,0 +1,18 @@
+##############################################################################
+## Filename:          /afs/uncc.edu/usr/u/sbandi/linux/ecgr6090/test_simdv2/edk/pcores/simd2_v2_00_a/data/simd2_v2_1_0.pao
+## Description:       Peripheral Analysis Order
+## Date:              Tue Jun 24 15:13:01 2014 (by Create and Import Peripheral Wizard)
+##############################################################################
+
+lib simd2_v2_00_a generic_values_pe vhdl
+lib simd2_v2_00_a memory vhdl			#File for RAM memory for PE 
+lib simd2_v2_00_a register_bank vhdl		#File for Register file of PE
+lib simd2_v2_00_a alu vhdl			#File for 8 mode ALU of PE
+lib simd2_v2_00_a pe vhdl			#File for PE(Processing Element)
+lib simd2_v2_00_a bram_code vhdl		#ROM (bram) memory that contains the the code
+lib simd2_v2_00_a sm_v2 vhdl			#State Machine of 7 states
+lib simd2_v2_00_a simdv2_actual vhdl		#File that instantiates all above components and implements glue logic	
+lib proc_common_v3_00_a  all 
+lib plbv46_slave_single_v1_01_a  all 
+lib simd2_v2_00_a user_logic vhdl
+lib simd2_v2_00_a simd2 vhdl
